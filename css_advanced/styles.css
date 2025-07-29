@@ -1,0 +1,106 @@
+*, *::before, *::after { box-sizing: border-box; }
+body {
+margin: 0 0;
+}
+/* {
+  outline: 1px solid red;
+}*/
+
+
+
+.background-image-container {
+  background-image: url(CSS_Advanced/Object.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;   
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px;
+  margin-bottom: 120px;
+}
+
+.header-right nav a {
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.banner1 h1 {
+  text-align: center;
+  font-size: 90px;
+  color:white;
+  margin: 0 0;
+}
+.smile-types {
+  display: flex;
+  justify-content: center;
+}
+.smile-types span{
+  margin: 0 10px;
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+}
+.banner-register-button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: #af65f4;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-size: 10px;
+  font-weight: 500px;
+  margin-bottom: 90px;
+
+}
+
+.pros-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.pros-section div {
+  padding: px;
+  
+  text-align: center;
+  width: 150px;       
+}
+.pros-section div img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.pros-section div h2 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+.pros-section div p {
+  font-size: 14px;
+  color: #6e6d6d;
+  margin: 4px 0;
+  font-weight: 500px;
+}
+.personal-profiles h2 span {
+  color: #af65f4;
+}
+
+/*testimonies*/
+.testimonies {
+  display: flex;
+  
+}
