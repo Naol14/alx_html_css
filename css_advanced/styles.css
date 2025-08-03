@@ -294,6 +294,89 @@
 .cta:hover {
   background-color: #8a40e0;
 }
+/*faq part*/
+  .faq {
+  background-color: #fff;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #222;
+}
+.faq h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  
+}
+
+.faq-item h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.faq-item p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  width: 24rem;
+}
+/*footer part*/
+.site-footer {
+  background-color: #0f172a; /* deep navy blue */
+  color: white;
+  padding: 3rem 5rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-center {
+  font-size: 14px;
+  text-align: center;
+  flex: 1;
+}
+
+.footer-right  {
+  margin-left: 10px;
+  margin: 0 5px;
+}
+
+.footer-right img {
+  width: 24px;
+  height: 24px;
+}
 
 
 
