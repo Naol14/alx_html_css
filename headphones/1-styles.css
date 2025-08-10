@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+ --primary-color: white;
+ --secondary-color: #302525;
+ --button-bg:  #FF6565;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--primary-color);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+.intro p {
+  color: var(--secondary-color);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Icon Cards Section */
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.card {
+  max-width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon Styling */
+i {
+  color: red;
+  font-size: 40px;
+  margin: 10px;
+}
+
+/* Text Styling */
+h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+/* Responsive Layout */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .intro h2 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+
+  .intro p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 15px;
+  }
+
+  .card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  i {
+    font-size: 32px;
+    margin: 8px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+}
