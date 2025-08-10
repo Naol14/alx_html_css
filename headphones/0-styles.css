@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+ --primary-color: white;
+ --button-bg:  #FF6565;
+
+}
+
+
+
+body {
+  font-size: 16px; 
+  line-height: 1.5;
+  background: url('images/headphones_hero_1.jpg')no-repeat center center fixed;
+  background-size:cover;
+  color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+
+}
+ul {
+  list-style: none;
+}
+.logo img {
+  max-width: 150px;
+  height: auto;
+  margin-left: 40px;
+}
+/*navbar*/
+.navbar {
+  padding: 20px;
+  
+}
+.main-menu ul {
+  display: flex;
+}
+.main-menu ul li a{
+  padding: 10px 20px;
+  display: block;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.main-menu ul li a:hover {
+  color:  var(--button-bg);
+
+}
+.main-menu ul li a:active {
+  color:  var(--button-bg);
+}
+  
+/* container*/
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+/*hero-section*/
+.hero-section {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px; 
+}
+.btn {
+  background: var(--button-bg);
+  color: white;
+  margin: 35px 0;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  transition: 1s;
+  font-weight: 500;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.hero-description {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*styles for mobile version*/
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-menu ul li a {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .hero-section {
+    margin: 20px;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
